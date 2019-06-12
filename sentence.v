@@ -5,19 +5,23 @@
 
 // Verilog延迟语句（延迟d个时间单位）
 //----------------------------------------
-  #d 语句  
+1. #d   
   
 // Verilog条件语句
 //----------------------------------------
-1. if语句
-2. if-else语句
-3. if-else if-else语句
-4. case-endcase语句
-5. casez-endcase语句
-6. casex-endcase语句
+1. if
+2. if-else
+3. if-else if-else
+4. case-endcase
+5. casez-endcase
+6. casex-endcase
 
-
-
+// Verilog循环语句
+//----------------------------------------
+1. forever
+2. repeat
+3. while
+4. for
 
 
   
