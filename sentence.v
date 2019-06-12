@@ -27,8 +27,8 @@
 //----------------------------------------
 1. initial
 2. always
-3. task
-4. function
+3. task-endtask
+4. function-endfunction
 
 
 
