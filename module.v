@@ -25,8 +25,9 @@ input ethernet1,ethernet2;
 output LED_3;               
 output SEL;                
 
-//内部变量定义( 1-wire、2-reg、3-memory )
+	//内部变量定义( 1-wire、2-reg、3-memory 4-integer )
 wire a;
+integer b;
 reg LED_3 = 1'b0;           				   
 reg SEL   = 1'b1;  
 reg [7:0] mem[255:0];
