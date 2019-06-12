@@ -25,9 +25,11 @@ input ethernet1,ethernet2;
 output LED_3;               
 output SEL;                
 
-	//内部变量定义( 1-wire、2-reg、3-memory )
+//内部变量定义( 1-wire、2-reg、3-memory )
+wire a;
 reg LED_3 = 1'b0;           				   
-reg SEL   = 1'b1;         
+reg SEL   = 1'b1;  
+reg [7:0] mem[255:0];
 
 //内部逻辑功能的实现( 1-assign、 2-always、 3-module_inst )
 always@(ethernet1 or ethernet2) begin			
