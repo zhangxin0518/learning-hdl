@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company:  ĞÂÖ÷Â¥D645
+// Company:  æ–°ä¸»æ¥¼D645
 // Engineer: All Members
 // 
 // Create Date:    9:45:00 06/12/2019 
@@ -17,19 +17,19 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 
-//¶Ë¿Ú¶¨Òå
+//ç«¯å£å®šä¹‰
 module dp83848(ethernet1,ethernet2,SEL,LED_3);	
 
-//I/OÉùÃ÷( 1-input¡¢2-output )
+//I/Oå£°æ˜( 1-inputã€2-output )
 input ethernet1,ethernet2;  					
 output LED_3;               
 output SEL;                
 
-//ÄÚ²¿±äÁ¿¶¨Òå( 1-wire¡¢2-reg )
+	//å†…éƒ¨å˜é‡å®šä¹‰( 1-wireã€2-regã€3-memory )
 reg LED_3 = 1'b0;           				   
 reg SEL   = 1'b1;         
 
-//ÄÚ²¿Âß¼­¹¦ÄÜµÄÊµÏÖ( 1-assign¡¢ 2-always¡¢ 3-module_inst )
+//å†…éƒ¨é€»è¾‘åŠŸèƒ½çš„å®ç°( 1-assignã€ 2-alwaysã€ 3-module_inst )
 always@(ethernet1 or ethernet2) begin			
       if(ethernet1==1'b1 && ethernet2==1'b0) begin
 		   LED_3 <= 1'b0;  
@@ -45,7 +45,7 @@ always@(ethernet1 or ethernet2) begin
 			end
 end
 
-//Ä£¿é½áÊø( module )
+//æ¨¡å—ç»“æŸ( module )
 endmodule										
 
 
