@@ -9,8 +9,10 @@
   
 // Verilog条件语句
 //----------------------------------------
-1. if-else语句
-2. case-endcase语句
+1. if语句
+2. if-else语句
+3. if-else if-else语句
+4. case-endcase语句
 
 
 
