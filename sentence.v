@@ -13,6 +13,10 @@
 2. if-else语句
 3. if-else if-else语句
 4. case-endcase语句
+5. casez-endcase语句
+6. casex-endcase语句
+
+
 
 
 
